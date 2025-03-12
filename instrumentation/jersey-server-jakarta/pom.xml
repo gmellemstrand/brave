@@ -106,7 +106,7 @@
     <dependency>
       <groupId>org.glassfish.jersey.containers</groupId>
       <artifactId>jersey-container-servlet-core</artifactId>
-      <version>3.1.10</version>
+      <version>${jersey3.version}</version>
     </dependency>
   </dependencies>
 
