@@ -2,7 +2,7 @@
  * Copyright The OpenZipkin Authors
  * SPDX-License-Identifier: Apache-2.0
  */
-package brave.jersey.server;
+package brave.jersey.server.jakarta;
 
 import brave.Tracing;
 import brave.http.HttpTracing;

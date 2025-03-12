@@ -2,9 +2,9 @@
  * Copyright The OpenZipkin Authors
  * SPDX-License-Identifier: Apache-2.0
  */
-package brave.jersey.server;
+package brave.jersey.server.jakarta;
 
-import brave.jersey.server.TracingApplicationEventListener.RequestEventWrapper;
+import brave.jersey.server.jakarta.TracingApplicationEventListener.RequestEventWrapper;
 import javax.ws.rs.ClientErrorException;
 import org.glassfish.jersey.server.ContainerRequest;
 import org.glassfish.jersey.server.ContainerResponse;
