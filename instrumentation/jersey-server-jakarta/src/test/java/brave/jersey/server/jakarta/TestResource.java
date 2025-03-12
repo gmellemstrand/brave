@@ -2,7 +2,7 @@
  * Copyright The OpenZipkin Authors
  * SPDX-License-Identifier: Apache-2.0
  */
-package brave.jersey.server;
+package brave.jersey.server.jakarta;
 
 import static brave.test.ITRemote.BAGGAGE_FIELD;
 import static brave.test.http.ITHttpServer.NOT_READY_ISE;

@@ -2,7 +2,7 @@
  * Copyright The OpenZipkin Authors
  * SPDX-License-Identifier: Apache-2.0
  */
-package brave.jersey.server;
+package brave.jersey.server.jakarta;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -14,7 +14,7 @@ import org.glassfish.jersey.server.ContainerRequest;
 import org.glassfish.jersey.server.ExtendedUriInfo;
 import org.junit.jupiter.api.Test;
 
-import brave.jersey.server.TracingApplicationEventListener.ContainerRequestWrapper;
+import brave.jersey.server.jakarta.TracingApplicationEventListener.ContainerRequestWrapper;
 
 public class ContainerRequestWrapperTest {
   ContainerRequest request = mock(ContainerRequest.class);
