@@ -27,7 +27,7 @@
     <dependency>
       <groupId>org.glassfish.jersey.core</groupId>
       <artifactId>jersey-server</artifactId>
-      <version>3.0.17</version>
+      <version>${jersey3.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -57,14 +57,14 @@
     <dependency>
       <groupId>org.glassfish.jersey.containers</groupId>
       <artifactId>jersey-container-servlet</artifactId>
-      <version>${jersey.version}</version>
+      <version>${jersey3.version}</version>
       <scope>test</scope>
     </dependency>
     <!-- Avoid InjectionManagerFactory not found -->
     <dependency>
       <groupId>org.glassfish.jersey.inject</groupId>
       <artifactId>jersey-hk2</artifactId>
-      <version>3.1.10</version>
+      <version>${jersey3.version}</version>
       <scope>test</scope>
     </dependency>
 
